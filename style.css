@@ -16,8 +16,7 @@ body {
             background-size: cover;
             background-repeat: no-repeat;
             background-blend-mode: darken;
-            filter: blur(10px);
-            z-index: -1;
+    
         }
 
     
