@@ -12,13 +12,15 @@ body {
             bottom: 0;
             left: 0;
             right: 0;
-            background: url("https://vidyasheela.com/web-contents/website-components/Coming-Soon-Pages/website-under-construction-page-template-html/construction.jpg") #08093cb3;
+            background: url("./IMG_7944.JPG") #08093cb3;
             background-size: cover;
             background-repeat: no-repeat;
             background-blend-mode: darken;
             filter: blur(10px);
             z-index: -1;
         }
+
+    
         
         .container {
             width: 600px;
@@ -26,7 +28,15 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%) 
         }
+        
+        
+
         .top p{
             font-size: 16px;
             width: 160px;
